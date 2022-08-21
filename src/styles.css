@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.error{color: red;}
+.box-footer{
+    direction: rtl;}
+
+    ::-webkit-input-placeholder { /* Edge */
+        color: rgb(207, 194, 194) !important;
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer */
+        color: rgb(207, 194, 194) !important;;
+      }
+      
+      ::placeholder {
+        color: rgb(207, 194, 194) !important;
+      }
+
+      
