@@ -16,6 +16,7 @@ import { SearchNamePipe } from './Pipe/search-name.pipe';
 import { ContactusComponent } from './Department/contactus/contactus.component';
 import { PortfolioComponent } from './Department/portfolio/portfolio.component';
 import { DxPieChartModule } from 'devextreme-angular';
+import { MainComponent } from './Layout/main/main.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { DxPieChartModule } from 'devextreme-angular';
     RatingListComponent,
     SearchNamePipe,
     ContactusComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

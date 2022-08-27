@@ -51,8 +51,7 @@ export class RateComponent implements OnInit {
               if(Result._Id)
               Swal.fire('Rating Added Successfully', '', "success");
               this.RateObj ={};
-              // this.Rout.navigate(['#RatingList']);
-              location.href = location.origin +'/#RatingList';
+               this.Rout.navigate(['/RatingList']);
             }
           });
         }

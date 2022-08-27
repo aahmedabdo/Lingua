@@ -5,66 +5,17 @@
    <!-- ===============================================-->
     <!--    Main Content-->
     <!-- ===============================================-->
-    <main class="main" id="top">
 
-        <!-- ============================================-->
-        <!-- Preloader ==================================-->
-        <div class="preloader" id="preloader">
-          <div class="loader"><span> </span><span></span><span></span><span></span><span> </span></div>
-        </div><!-- ============================================-->
-        <!-- End of Preloader ===========================-->
-        <div class="offcanvas offcanvas-start home-content show" id="offcanvasStart" tabindex="-1" data-bs-backdrop="false" data-bs-scroll="true" data-base-content="home">
-          <div class="offcanvas-body d-flex flex-column flex-center"><a class="text-center" href="index.html">
-            <!-- <h3> <strong style="color: #4d90fb ;">  Lingua </strong>  Media Connect LTD</h3> -->
-            <img class="mb-3 logo" src="../assets/img/logos/loguinalogo.PNG" alt="logo">
-          </a>
-            <p class="text-center mb-5">
-                Arabic & English Translation
-                <br>
-                 Voice Over and Marketing Services
-            </p>
-            <ul class="list-inline">
-              <li class="list-inline-item"><a class="text-700 mx-2" href="#!"> <span class="fab fa-facebook"></span></a></li>
-              <li class="list-inline-item"><a class="text-700 mx-2" href="#!"> <span class="fab fa-twitter"></span></a></li>
-              <li class="list-inline-item"><a class="text-700 mx-2" href="#!"> <span class="fab fa-google-plus-g"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="offcanvas offcanvas-end home-nav px-0 show" id="offcanvasEnd" tabindex="-1" data-bs-backdrop="false" data-bs-scroll="true" data-base-content="nav">
-          <div class="offcanvas-body p-0 position-lg-fixed position-relative">
-            <div class="row vh-lg-100 g-0 bg-100">
-              <div class="col-6 home-nav-items position-relative text-white nav-hover-zoom nav-blue-soft"><img class="nav-img" src="assets/img/navigation/about-4-2.png" alt="..." />
-                <div class="card-img-overlay d-flex flex-column flex-center align-items-xxl-start justify-content-xxl-end h-100 pb-4 px-5">
-                  <div class="mb-3"> <img class="nav-icons" src="assets/img/lineicons/diamond-4-2.png" alt="icon" /></div><a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none" href="#Rate">Rating</a>
-                </div>
-              </div>
-              <div class="col-6 home-nav-items position-relative text-white nav-hover-zoom nav-red-soft"><img class="nav-img" src="assets/img/navigation/services-4-2.png" alt="..." />
-                <div  style="background-color: #5b4ef4;"class="card-img-overlay d-flex flex-column flex-center align-items-xxl-start justify-content-xxl-end h-100 pb-4 px-5">
-                  <div class="mb-3"> <img class="nav-icons" src="assets/img/lineicons/thunder-4-2.png" alt="icon" /></div><a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none" href="#RatingList">Rating List</a>
-                </div>
-              </div>
-              <div class="col-6 home-nav-items position-relative text-white nav-hover-zoom nav-yellow-soft"><img class="nav-img" src="assets/img/navigation/contact-4-2.png" alt="..." />
-                <div class="card-img-overlay d-flex flex-column flex-center align-items-xxl-start justify-content-xxl-end h-100 pb-4 px-5">
-                  <div class="mb-3"> <img class="nav-icons" src="assets/img/lineicons/map-4-2.png" alt="icon" /></div><a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none" href="#contact">Contact</a>
-                </div>
-              </div>
-              <div class="col-6 home-nav-items position-relative text-white nav-hover-zoom nav-purple-soft"><img class="nav-img" src="assets/img/navigation/portfolio-4-2.png" alt="..." />
-                <div class="card-img-overlay d-flex flex-column flex-center align-items-xxl-start justify-content-xxl-end h-100 pb-4 px-5">
-                  <div class="mb-3"> <img class="nav-icons" src="assets/img/lineicons/trophy-4-2.png" alt="icon" /></div><a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none" href="#portfolio">Portfolio</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <app-Rating></app-Rating>
+        <!-- <app-Rating></app-Rating>
 
         <app-rating-list></app-rating-list>
   
       <app-portfolio></app-portfolio>
   
-       <app-contactus></app-contactus>
-      </main><!-- ===============================================-->
+       <app-contactus></app-contactus> -->
+       <router-outlet></router-outlet>
+
+     <!-- ===============================================-->
       <!--    End of Main Content-->
       <!-- ===============================================-->
   
